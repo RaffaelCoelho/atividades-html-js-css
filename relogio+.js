@@ -35,11 +35,11 @@ function relogio(){
  if(s<10){
     s="0"+ s
  }
- if(a<10){
-    m="0"+ m 
+ if(data<10){
+    m="0"+ data 
  }
  if(mess<10){
-    s="0"+ s
+    s="0"+ mess
  }
 
  
@@ -72,7 +72,7 @@ else if(h>= 12 && h < 18)
 }
 else
 {
-   
+
  cumprimento.textContent = 'Boa noite!'
     
 }
